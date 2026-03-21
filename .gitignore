@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Data outputs
+data/outputs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Cursor (optional, if出现)
+.cursor/
+
+# other files
+*.docx
+job_auto_apply_prototype.py
+login_test_pass.py
+
+# other folders
+resume/
+auto_apply_data

@@ -1,0 +1,13 @@
+project_name: resume_tailoring
+scoring:
+  apply_threshold: 75
+  strong_apply_threshold: 85
+
+paths:
+  experience_db: data/experience_db.json
+  input_dir: data/inputs
+  output_dir: data/outputs
+
+llm:
+  temperature: 0.2
+  max_output_tokens: 2000
