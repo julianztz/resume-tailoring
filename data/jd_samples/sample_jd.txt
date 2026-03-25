@@ -1,0 +1,20 @@
+What You’ll Do
+
+ Design and implement analysis algorithms that summarize, aggregate, and cluster metrics produced by simulations of the autonomy stack 
+
+Build and maintain GM’s primary autonomy evaluation dashboards and reports that provide clear, explainable insights to engineering and leadership, including trend analysis, drift detection, and scenario coverage. 
+
+Leverage vision-language models (VLMs) and large language models (LLMs) to classify autonomy performance, critical scenarios, and prioritize validation efforts, integrating human-in-the-loop where appropriate. 
+
+Maintain a high technical standard through architectural design, code reviews, and by following software-engineering best practices. 
+
+Interface with cross-org partners to articulate requirements, resolve handoff issues, and share best practices.  
+
+
+Your Skills & Abilities (Required Qualifications)
+
+3+ years applied experience in data analysis, ML evaluation, or autonomy analytics, working with large-scale datasets and statistical methods.  
+
+Proficiency with Pandas, NumPy, SciPy, and plotting/visualization libraries. 
+
+Bachelor’s or higher degree in Computer Science, Data Science, Mechanical or Aerospace Engineering, or equivalent practical experience. 

@@ -58,3 +58,25 @@ main.py 使用 Typer 构建命令行接口。
 提供统一系统入口
 支持 command-driven 开发模式
 方便测试、脚本化和后续自动化 pipeline
+
+
+LLM + parser
+LLM parser 擅长“从不完全规整的自然语言里理解你想要的语义结构”
+传统 parser 擅长“按规则找你已经知道长什么样的东西”
+
+Stage 1: deterministic extraction
+
+先用规则抽显式字段：
+company
+title
+location
+
+Stage 2: LLM semantic parsing
+
+再把 raw_text 发给 LLM，让它输出：
+responsibilities
+required_skills
+preferred_skills
+keywords
+signals
+summary

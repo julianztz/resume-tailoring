@@ -1,5 +1,5 @@
 '''
-infrastructure / 统一数据格式
+infrastructure / 统一数据格式 (object)
  -- 定义data structure model
  -- 利用Pydantic 约束数据格式契约（schema）
  -- 在每一层模块传递数据时确保数据的统一格式类型
@@ -12,6 +12,7 @@ infrastructure / 统一数据格式
 '''
 
 from __future__ import annotations
+from nt import system
 from typing import Literal
 from pydantic import BaseModel, Field     # 类型注解（type hints）的 数据/解析/建模 库
 
@@ -31,11 +32,18 @@ class JDInput(BaseModel):
 JD中提取的高级信号；for etendability
 '''
 class JDSignals(BaseModel):
-    customer_facing: bool = False
-    startup_like: bool = False
+    customer_facing_internal: bool = False
+    customer_facing_external: bool = False
+    data_heavy: bool = False
+    analytics_heavy: bool = False
+    applied_ml: bool = False
     backend_heavy: bool = False
+    frontend_heavy: bool = False
     research_heavy: bool = False
-    front_end: bool = False
+    startup_like: bool = False
+    leadership_heavy: bool = False
+    domain_heavy: bool = False
+    system_heavy: bool = False
     
 
 '''
@@ -46,6 +54,7 @@ class JDParsed(BaseModel):
     title: str | None = None
     location: str | None = None
     seniority: str | None = None
+    education: list[str] = Field(default_factory=list)
     responsibilities: list[str] = Field(default_factory=list)
     required_skills: list[str] = Field(default_factory=list)
     preferred_skills: list[str] = Field(default_factory=list)

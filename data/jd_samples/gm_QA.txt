@@ -1,0 +1,71 @@
+The Role:  
+
+We are looking for a talented, motivated, and capable engineer that will lead in the development of a strategy to effectively execute automated testing for all virtual test chambers in the Vehicle Mechatronics landscape.   
+
+Activities include engaging in meaningful discussions with owners and downstream stakeholders from cross-functional areas, communicating in multiple forums with leadership at various levels within the department and outside the department, and make strategic decisions that will deliver quality, reliability, and repeatability for our Co-Simulation environments catering different SW/System Product Groups.  
+
+What You'll Do (Responsibilities):  
+
+Lead in how test scripts & Helper/Wrappers functions are designed to verify key functional behaviors. 
+
+Establish Key Test Behaviors and drive efficiency in the work product.   
+
+Identify structural challenges with scripts, helpers, benches, etc… and co-develop solutions to eliminate them   
+
+Develop, Lead, Enforce the use of solutions to increase operational efficiency, e.g. analyzing script results (e.g. AI triaging). 
+
+Monitor QA testing needs/Objectives from various upstream and downstream stakeholders.  Develop a plan to achieve goals. Communicate them to the team. ' 
+
+Manage department-wide report-outs such as script readiness timing, test execution results, simulation environment/tool readiness, VESCOM releases notes, and regular reporting or escalation  
+
+Be the central contact for all upfront and downstream customers. 
+
+Interface with other GM Business Sectors to align test automation capabilities, industry trends, tools, training, etc. 
+
+Champion Ideation/Innovation workshops within the team and drive continuous improvement.  
+
+Develop Test Plans with inputs from the simulation community to ensure coverage in terms of integration of software and virtualized hardware components.  
+
+Drive automation initiatives in the quality management process. 
+
+Define metrics for simulation quality and identify enablers for improved quality.   
+
+Your Skills & Abilities (Required Qualifications):    
+
+Bachelor's degree in Software/Computer/Electrical/Embedded Systems/Electronics Engineering or equivalent field. 
+
+5+ years of relevant experience.  
+
+Strong experience in developing and executing test scripts using Python, C, Java, C++.  
+
+Strong knowledge of Unit test frameworks like JUnit, Unit, etc.  
+
+Strong knowledge of CICD process pipelines like GitHub Actions and Jenkins.  
+
+Knowledge and familiarity with Mechatronic Infrastructure Systems such as Ethernet/CAN/LIN, Diagnostics, Programming, HWIO, Power Management, and Cybersecurity  
+
+Knowledge and Experience executing tests on HIL, SIL, and other automation testing platforms  
+
+Knowledge of software development lifecycle and testing methodologies.  
+
+Strong analytical and problem-solving skills.  
+
+Ability to identify non-compliance with standards and resolve the issue.  
+
+Able to work independently with a high degree of initiative.  
+
+Ability to communicate at different levels of the organization effectively. 
+
+Strong analytical and problem-solving skills.  
+
+What Will Give You a Competitive Edge (Preferred Skills):  
+
+Familiarity with continuous integration and continuous delivery (CI/CD) practices.  
+
+Understanding of software version control systems (e.g., Git).  
+
+Prior software development and release experience. 
+
+Knowledge of system engineering and its application in SW validation testing. 
+
+Experience and exposure to root cause investigation strategies such as Fishbone, 5 Whys, Fault Tree Analysis, and DFSS. 
