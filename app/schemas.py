@@ -69,13 +69,19 @@ my experience
 '''
 class ExperienceItem(BaseModel):
     exp_id: str
+    company: str | None = None
     project: str
     role: str
     period: str | None = None
+
     skills: list[str] = Field(default_factory=list)
     domains: list[str] = Field(default_factory=list)
-    bullets: list[str] = Field(default_factory=list)
-    strength_tags: list[str] = Field(default_factory=list)
+    tools: list[str] = Field(default_factory=list)
+    strength_tags: list[str] = Field(default_factory=list)            # signal layer 
+    core_capabilities: list[str] = Field(default_factory=list)        # match layer -- output to match result
+
+    bullets: list[str] = Field(default_factory=list)                  # detail layer -- source
+    impact_summary: str | None = None
 
 
 '''
@@ -89,10 +95,22 @@ class MatchResult(BaseModel):
     matched_skills: list[str] = Field(default_factory=list)
     missing_skills: list[str] = Field(default_factory=list)
     top_experience_ids: list[str] = Field(default_factory=list)
+    experience_scores: list[ExperienceMatchScore] = Field(default_factory=list)
     strengths: list[str] = Field(default_factory=list)
     risks: list[str] = Field(default_factory=list)
     narrative: str = ""
+    
 
+'''
+每条experience的matching score
+'''
+class ExperienceMatchScore(BaseModel):
+    exp_id: str
+    score: int = 0
+    matched_skills: list[str] = Field(default_factory=list)
+    matched_keywords: list[str] = Field(default_factory=list)
+    matched_signals: list[str] = Field(default_factory=list)
+    rationale: str = ""
 
 '''
 decision gate / 建议生成器

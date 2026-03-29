@@ -9,6 +9,7 @@ from app.parser.jd_parser import parse_jd
 from app.schemas import ExperienceItem, JDInput
 from app.logger import setup_logger
 from app.ingest.jd_ingest import load_jd_from_file
+from app.store.experience_store import get_all_experiences
 
 app = typer.Typer(help="Resume tailoring project CLI")       # CLI 对象 ie. python -m app.main health
 
@@ -135,6 +136,17 @@ def parse_jd_cmd(file_path: str) -> None:
     print("[green]JD parsing succeeded.[/green]")
     print(jd_parsed.model_dump())
 
+
+@app.command()
+def load_experience() -> None:
+    logger = setup_logger(__name__)
+    settings = load_settings()
+    experiences = get_all_experiences()
+
+    logger.info("Experience load command completed.")
+    logger.info("Experience DB path: %s", settings.paths.experience_db)
+    print("[green]Experience DB loaded successfully.[/green]")
+    print([exp.model_dump() for exp in experiences])
 
 
 

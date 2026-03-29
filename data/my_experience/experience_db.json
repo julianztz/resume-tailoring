@@ -1,0 +1,313 @@
+[
+  {
+    "exp_id": "qualcomm_validation_system",
+    "company": "Qualcomm Technologies Inc.",
+    "project": "Distributed System Validation & Automation Platform",
+    "role": "Software Engineer (Backend & Automation)",
+    "period": "06/2022 – 09/2025",
+  
+    "skills": [
+      "backend development",
+      "distributed job orchestration",
+      "workflow automation",
+      "job scheduling",
+      "failure handling",
+      "root cause analysis",
+      "system debugging",
+      "data pipeline design"
+    ],
+  
+    "domains": [
+      "system validation",
+      "large-scale simulation",
+      "distributed systems",
+      "automation platforms",
+      "reliability engineering"
+    ],
+  
+    "tools": [
+      "Python",
+      "Linux",
+      "Shell",
+      "LSF",
+      "C/C++",
+      "matplotlib",
+      "CSV pipelines"
+    ],
+  
+    "strength_tags": [
+      "scalability",
+      "reliability",
+      "backend_systems",
+      "debugging",
+      "ownership",
+      "system_design"
+    ],
+    "core_capabilities": [
+      "distributed system orchestration",
+      "large-scale simulation processing",
+      "automation pipeline design",
+      "system reliability and failure handling",
+      "observability and monitoring",
+      "debugging complex systems"
+    ],
+      
+    "bullets": [
+      "Designed and maintained a distributed validation system using LSF to orchestrate thousands of parallel simulation jobs per run",
+      "Built Python-based automation pipelines to manage large-scale test matrices across configurations such as resolution, frame rate, and composition",
+      "Implemented end-to-end execution workflows including job scheduling, configuration management, logging, and failure handling",
+      "Led root cause analysis of complex system failures by analyzing execution dependencies and reproducing issues deterministically",
+      "Developed data-driven debugging workflows to minimize input space and isolate faults at system and signal levels",
+      "Converted recurring failure patterns into automated safeguards to improve system reliability over time",
+      "Migrated legacy Perl-based automation framework to Python while preserving compatibility with existing workflows and cross-team usage"
+    ],
+  
+    "impact_summary": "Built and operated a scalable distributed validation system enabling reliable execution of thousands of simulation jobs, significantly improving debugging efficiency, system observability, and long-term automation maintainability."
+  },
+
+
+
+  {
+    "exp_id": "qualcomm_power_model_tool",
+    "company": "Qualcomm Technologies Inc.",
+    "project": "Power Model Control Panel & Visualization Tool",
+    "role": "Software Engineer (Backend & Tooling)",
+    "period": "06/2022 – 09/2025",
+  
+    "skills": [
+      "tool development",
+      "GUI design",
+      "abstraction design",
+      "data visualization",
+      "backend logic encapsulation"
+    ],
+  
+    "domains": [
+      "power modeling",
+      "hardware-software integration",
+      "internal developer tools",
+      "simulation tooling"
+    ],
+  
+    "tools": [
+      "Python",
+      "matplotlib"
+    ],
+  
+    "strength_tags": [
+      "abstraction",
+      "usability",
+      "tooling",
+      "cross_domain",
+      "developer_experience"
+    ],
+    "core_capabilities": [
+      "developer tooling design",
+      "abstraction of complex systems",
+      "data visualization",
+      "cross-domain system integration",
+      "improving developer experience"
+    ],
+
+    "bullets": [
+      "Developed a Python-based control panel to abstract complex power model configurations into a user-friendly graphical interface",
+      "Encapsulated low-level logic and register-level interactions into reusable backend modules to simplify usage for non-software experts",
+      "Enabled hardware and power engineers to interact with simulation models through intuitive controls instead of manual configuration",
+      "Integrated data visualization capabilities to support analysis and debugging of power model behaviors",
+      "Improved team productivity by reducing the complexity of interacting with diverse power models and simulation configurations"
+    ],
+  
+    "impact_summary": "Improved usability and accessibility of complex power modeling systems by building an internal GUI tool, enabling hardware experts to efficiently debug and analyze models without deep software involvement."
+  },
+
+
+
+  {
+    "exp_id": "huawei_simulation_tools",
+    "company": "Huawei Technologies",
+    "project": "Simulation & Data Processing Tooling",
+    "role": "Software Engineer",
+    "period": "08/2020 – 06/2022",
+  
+    "skills": [
+      "data processing",
+      "automation",
+      "testing pipeline design",
+      "object-oriented design",
+      "data analysis"
+    ],
+  
+    "domains": [
+      "simulation systems",
+      "data-intensive applications",
+      "system validation",
+      "engineering tools"
+    ],
+  
+    "tools": [
+      "Python",
+      "MATLAB",
+      "Linux",
+      "PyQt",
+      "Orange3",
+      "C#"
+    ],
+  
+    "strength_tags": [
+      "data_processing",
+      "tooling",
+      "automation",
+      "code_quality",
+      "scalability"
+    ],
+  
+    "core_capabilities": [
+      "data pipeline development",
+      "automation workflow design",
+      "simulation tooling",
+      "data analysis systems",
+      "OOP system design",
+      "test automation"
+    ],
+  
+    "bullets": [
+      "Developed Python-based simulation and validation tools to process and analyze large volumes of system configuration and test data",
+      "Built automated testing pipelines integrating Python and MATLAB to enable reusable execution flows and scalable data analysis",
+      "Refactored internal tools using object-oriented design principles to improve scalability and maintainability for data-heavy workloads"
+    ],
+  
+    "impact_summary": "Improved scalability and maintainability of simulation and validation workflows by building data-driven tooling and structured automation pipelines for large-scale test data processing."
+  },
+
+
+
+  {
+    "exp_id": "django_backend_platform",
+    "company": "Public Sculpture Research Institution",
+    "project": "Data-driven Exhibition Platform Backend",
+    "role": "Back-end Web Developer (Part-time)",
+    "period": "01/2021 – 01/2022",
+  
+    "skills": [
+      "backend development",
+      "REST API design",
+      "database design",
+      "cloud infrastructure",
+      "CI/CD",
+      "infrastructure as code"
+    ],
+  
+    "domains": [
+      "web applications",
+      "cloud systems",
+      "data-driven platforms",
+      "backend services"
+    ],
+  
+    "tools": [
+      "Python",
+      "Django",
+      "AWS",
+      "EC2",
+      "RDS",
+      "S3",
+      "Terraform",
+      "Docker",
+      "GitHub Actions"
+    ],
+  
+    "strength_tags": [
+      "backend_systems",
+      "cloud",
+      "devops",
+      "api_design",
+      "fullstack_exposure"
+    ],
+  
+    "core_capabilities": [
+      "RESTful API development",
+      "backend system design",
+      "relational database design",
+      "cloud infrastructure (AWS)",
+      "CI/CD pipelines",
+      "infrastructure as code",
+      "dockerized deployment"
+    ],
+  
+    "bullets": [
+      "Designed and implemented RESTful backend services using Django to support a data-driven exhibition platform",
+      "Built and optimized relational database schemas and queries to improve performance and data integrity",
+      "Implemented CI/CD pipelines using GitHub Actions to automate build, testing, and deployment of Dockerized services",
+      "Managed AWS cloud infrastructure (EC2, RDS, S3) using Terraform for reproducible and scalable environments",
+      "Collaborated with non-technical stakeholders to translate requirements into reliable backend system functionality"
+    ],
+  
+    "impact_summary": "Delivered a production-ready backend platform with automated deployment pipelines and cloud infrastructure, enabling scalable and maintainable data-driven web services."
+  },
+
+
+  {
+    "exp_id": "llm_resume_platform",
+    "company": null,
+    "project": "LLM-Driven Resume Optimization Platform",
+    "role": "Backend System Designer / Engineer",
+    "period": "10/2025 – Present",
+  
+    "skills": [
+      "backend system design",
+      "LLM integration",
+      "pipeline architecture",
+      "data modeling",
+      "retrieval and ranking",
+      "concurrent processing",
+      "fault tolerance"
+    ],
+  
+    "domains": [
+      "LLM applications",
+      "information retrieval",
+      "backend systems",
+      "automation platforms",
+      "developer tools"
+    ],
+  
+    "tools": [
+      "Python",
+      "OpenAI API",
+      "Pydantic",
+      "JSON schema"
+    ],
+  
+    "strength_tags": [
+      "system_design",
+      "ai_application",
+      "backend_systems",
+      "modular_architecture",
+      "scalability"
+    ],
+  
+    "core_capabilities": [
+      "LLM application development",
+      "pipeline system design",
+      "retrieval and ranking systems",
+      "schema-driven data modeling",
+      "prompt engineering",
+      "concurrent task processing",
+      "fault-tolerant system design"
+    ],
+  
+    "bullets": [
+      "Designed a modular backend pipeline system for LLM-driven resume optimization, transforming unstructured job descriptions into structured representations and tailored outputs",
+      "Modeled the system as a multi-stage processing pipeline including parsing, schema validation, experience retrieval, scoring, and resume generation with well-defined data contracts",
+      "Defined structured data schemas (e.g., JobDescription, ExperienceItem) using Pydantic to enforce consistency and enable deterministic processing across pipeline stages",
+      "Built a hybrid retrieval and ranking engine combining rule-based scoring with LLM-assisted semantic understanding to evaluate job fit and select relevant experiences",
+      "Integrated LLM APIs with structured prompt design for reliable information extraction and controlled JSON output generation",
+      "Designed concurrent processing strategy using multi-threading for parallel job processing, with planned migration to queue-based asynchronous architecture (e.g., task queues / Kafka)",
+      "Implemented fault-tolerant mechanisms including API retry, timeout control, stage-level failure isolation, and idempotent output generation",
+      "Designed system evolution roadmap from CLI-based workflow to web-based interface, and from local JSON storage to persistent database-backed architecture"
+    ],
+  
+    "impact_summary": "Designed and implemented an extensible LLM-powered backend system that automates resume tailoring through structured data modeling, retrieval and ranking logic, and modular pipeline architecture, enabling scalable and reliable optimization workflows."
+  }
+
+]

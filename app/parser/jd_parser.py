@@ -69,6 +69,10 @@ def normalize_keywords(keywords: list[str]) -> list[str]:
 # 返还 JSON {company， title， location， sensiority， skill， signal， summary}
 # ----------------------------
 
+'''
+generic: basic fields & additional rules
+Job specific: signal definitions & important rules
+'''
 def build_prompt(raw_text: str) -> str:
     return f"""
 You are an expert at parsing job descriptions.

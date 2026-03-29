@@ -4,7 +4,7 @@ scoring:
   strong_apply_threshold: 85
 
 paths:
-  experience_db: data/experience_db.json
+  experience_db: data/my_experience/experience_db.json
   input_dir: data/inputs
   output_dir: data/outputs
 

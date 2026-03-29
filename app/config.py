@@ -29,7 +29,7 @@ class ScoringConfig(BaseModel):
 
 
 class PathsConfig(BaseModel):
-    experience_db: str = "data/experience_db.json"
+    experience_db: str = "data/my_experience/experience_db.json"
     input_dir: str = "data/inputs"
     output_dir: str = "data/outputs"
 
@@ -87,7 +87,7 @@ def load_settings() -> AppConfig:
             strong_apply_threshold=scoring_yaml.get("strong_apply_threshold", 85),
         ),
         paths=PathsConfig(
-            experience_db=paths_yaml.get("experience_db", "data/experience_db.json"),
+            experience_db=paths_yaml.get("experience_db", "data/my_experience/experience_db.json"),
             input_dir=paths_yaml.get("input_dir", "data/inputs"),
             output_dir=paths_yaml.get("output_dir", "data/outputs"),
         ),
