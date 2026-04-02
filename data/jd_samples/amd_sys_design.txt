@@ -1,0 +1,58 @@
+THE ROLE:
+
+As an Advanced GPU HW Hardware Development Lab Engineer, you will be chiefly responsible for managing GPU server platforms in the validation test datacenter lab.  This will include responsibilities such as setting up lab infrastructure, lab networking, lab systems, SW tools, test automation support, HW test equipment, running HW validation tests and debugging system level issues.  While working with cutting edge HPC (high performance computing) technologies, you will be part of a team enabling the bring-up and development of advanced GPU systems and designs.  This Lab Technician is part of a cross-functional technical team working with Sr. Validation and Design engineers, other lab personnel and the Facilities team.
+
+ 
+
+THE PERSON:
+
+A successful candidate must be curious, self-driven, collaborative, and a strong team player with hands-on technical experience and skills to support datacenter labs test operations.
+Must be proactive, innovative and have excellent teamwork, communication and organization skills, and be effective at multi-tasking.
+
+Proven experience in Server systems bring-up, HW validation, automation, and debug in a server datacenter environment 
+
+Candidate should understand the general silicon engineering process (preferably GPU, or CPU/APU), from concept to tape-out to production.
+
+ 
+
+KEY RESPONSIBILITIES:
+
+Test System Configuration and Maintenance
+
+Key points of contact for setting up and maintaining validation test systems; including
+Configure and deploy GPU prototype systems set ups
+Resolving associated issues with the HW validation test equipment
+Lead & drive lab activities and assigned programs pertaining to equipment readiness and co-ordination for pre and post-silicon validation efforts of NPI products
+Assist in various lab-related requirements including equipment ordering, facilities coordination, equipment management, maintenance, repair to meet product schedules
+System testing
+
+Server System setup responsibility; including OS, automation infrastructure, SW/driver images, diagnostics/tools, etc.
+Test equipment setup responsibility - including using scopes, thermal chambers, debug headers, etc.
+Board and system-level debug
+General
+
+Analyze and report any issues or concerns
+Close issues in collaboration with other cross-functional engineering teams
+Develop lab-related tests, debug improvements, and efficiencies for better overall test execution and throughput capacity
+Soldering, reworking HW
+ 
+
+PREFERRED EXPERIENCE:
+
+Hands-on experience working in a Hardware Development Datacenter Labs
+Knowledge of computer hardware architecture (CPU/APU, graphic cards, memory, bus logic, and display technologies) and software architecture (driver/bios)
+Experience with test equipment - scopes, thermal chambers, etc.
+Solid understanding of circuits/board design, schematics
+Fluent in various Software operating systems including Linux, Windows, MAC
+Hands-on debug experience with GPU/APU, motherboards, memory interface, bus logic
+Scripting knowledge includes Perl, Ruby, Python, Bash, etc.
+Ability to set up hardware and build computer systems
+Experience working with cross functional teams
+Excellent organizational and communication skills
+ 
+
+ 
+
+ACADEMIC CREDENTIALS:
+
+Bachelor’s (BS) or master’s (MS) Degree in Electrical Engineering, Computer Engineering, Computer Science or other relevant discipline.

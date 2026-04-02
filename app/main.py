@@ -10,6 +10,7 @@ from app.schemas import ExperienceItem, JDInput
 from app.logger import setup_logger
 from app.ingest.jd_ingest import load_jd_from_file
 from app.store.experience_store import get_all_experiences
+from app.match.matcher import build_match_result
 
 app = typer.Typer(help="Resume tailoring project CLI")       # CLI 对象 ie. python -m app.main health
 
@@ -147,6 +148,26 @@ def load_experience() -> None:
     logger.info("Experience DB path: %s", settings.paths.experience_db)
     print("[green]Experience DB loaded successfully.[/green]")
     print([exp.model_dump() for exp in experiences])
+
+
+
+
+@app.command()
+def match_jd(file_path: str) -> None:
+    """
+    Parse a JD and match it against the experience database.
+    """
+    logger = setup_logger(__name__)
+
+    jd_input = load_jd_from_file(file_path)
+    jd_parsed = parse_jd(jd_input)
+    experiences = get_all_experiences()
+
+    match_result = build_match_result(jd_parsed, experiences, top_k=4)
+
+    logger.info("JD matching command completed.")
+    print("[green]JD matching succeeded.[/green]")
+    print(match_result.model_dump())
 
 
 
